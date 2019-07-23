@@ -4,7 +4,7 @@
 $host='localhost';
 $username='Jeff';
 $pass='123456';
-$dbname='website';
+$dbname='jeff';
 $dsn="mysql:host=$host;dbname=$dbname";
 $options=array(
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
