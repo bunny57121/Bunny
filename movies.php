@@ -10,29 +10,7 @@
 <body>
     <div class="container">
 
-    <ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.php">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./pythons.php">Pythons</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./sketches.php">Sketches</a>
-    </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="./movies">Movies</a>
-  </li> 
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Live </a>
-  </li>
-</li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Disabled</a>
-  </li>
-  </ul>
-
+   <?php include "nav.php"; ?>
 
  
     <p><h2>French Taunting</h2></p>

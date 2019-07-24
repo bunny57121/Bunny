@@ -9,29 +9,7 @@
 </head>
 <body>
     <div class="container">
-    <ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.php">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="./pythons.php">Pythons</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./sketches.php">Sketches</a>
-    </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./movies">Movies</a>
-  </li> 
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Live </a>
-  </li>
-</li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Disabled</a>
-  </li>
-</ul>
-
+    <?php include "nav.php"; ?>
     <ul>
  <li><h2>John Cleese</h2></li>
 <img src="https://bloximages.newyork1.vip.townnews.com/pilotonline.com/content/tncms/assets/v3/editorial/5/cf/5cfb4e00-22e9-5335-91d0-87dfb6715a67/5760134890e3a.image.jpg?resize=400%2C253" alt="">
