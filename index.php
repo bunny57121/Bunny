@@ -19,7 +19,7 @@ include "sess.php";
 <h1>Monty Python</h1>
 
 
-
+<a href="#"><img src="https://wallpaperplay.com/walls/full/b/d/1/58065.jpg" alt=""></a>
 
 
 
