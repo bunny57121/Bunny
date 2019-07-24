@@ -1,3 +1,8 @@
+<?php
+include "conn.php";
+include "sess.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

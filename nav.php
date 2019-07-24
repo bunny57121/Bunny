@@ -13,7 +13,7 @@
   </li> 
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Live </a>
+    <a class="nav-link" href="./live.php">Live </a>
   </li>
 </li>
 
