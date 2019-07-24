@@ -17,7 +17,7 @@ if (isset($_POST['login'])) {
             if ($user['type']=="admin") {
                 $_SESSION['admin'] = 'true';
             }
-            header('Location: home.php');
+            header('Location: index.php');
             die;
         } else{
             echo'<h1>Password is incorrect</h1>';
