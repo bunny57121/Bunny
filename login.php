@@ -1,6 +1,6 @@
 <?php
 include 'conn.php';
-
+include 'sess.php';
 //check if user has submitted the form
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
@@ -25,7 +25,7 @@ if (isset($_POST['login'])) {
                 $_SESSION['premium'] = 'true';
             }
             if ($user['status']=="rickroll"){
-                header("Location: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+                header("Location: rickroll.php");
                 die;
             }
 
