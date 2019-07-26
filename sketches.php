@@ -21,8 +21,6 @@ include "sess.php";
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FAxkcPoLYcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p><h2>Upper-class twit of the year show</h2></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J1FfrnOXGHg?start=0&end=246" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p><h2>Killer Joke</h2></p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/prDoDPIpX4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
