@@ -1,4 +1,10 @@
 <?php
+include "sess.php";
+include "conn.php";
+$userid=$_SESSION['userid'];
+$sql = "UPDATE users SET `status` = 'play' WHERE id = $userid";
+$conn->exec($sql);
+$_SESSION['play'] = 'true';
 header("refresh:5; url=secret.php");
 ?>
 <!DOCTYPE html>

@@ -1,6 +1,6 @@
 <?php
 include "conn.php";
-include "sessadmin.php";
+include "sesspremium.php";
 //Handle updating user info
 if (isset($_POST['update'])) {
     $id=$_POST['id'];

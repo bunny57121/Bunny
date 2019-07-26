@@ -1,6 +1,6 @@
 <?php
 include "conn.php";
-include "sessadmin.php";
+include "sesspremium.php";
 $sql="SELECT * FROM users WHERE `status`!='premium'";
 $s=$conn->prepare($sql);
 $s->execute();
