@@ -37,5 +37,16 @@ if (isset($_SESSION['admin'])) {
        
 <?php   } 
 } ?>
-  
+<?php if (isset($_SESSION['secret'])) {
+   if ($_SESSION['secret']=="true") { ?>
+   <li class="nav-item">
+    <a class="nav-link" href="./reward.php">Reward</a>
+  </li>
+   <?php } } ?>
+   <?php if (isset($_SESSION['premium'])) {
+   if ($_SESSION['premium']=="true") { ?>
+   <li class="nav-item">
+    <a class="nav-link" href="./premiumdashboard.php">Premium Features</a>
+  </li>
+   <?php } } ?>
 </ul>

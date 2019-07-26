@@ -14,14 +14,13 @@ header ("refresh:10; url=redirect.php");
 </head>
 <body>
     <div class="container">
-        <p><h1>You have reached the third level</h1></p>
-    <p><h3>Question five: Which of these fruit had not been used for self defense at the beginning of the sketch?</h3></p>
+    <p><h3>Question six: Who won the upper-class twit of the year show?</h3></p>
 <div class="row">
-    <div class="col"><a href="./redirect.php">Cherries</a></div>
-<div class="col"><a href="./punishment2.php">Passionfruit</a></div>
-<div class="col"><a href="./secretlevel3-2.php">Bannana</a></div>
-<div class="col"><a href="./punishment.php">Grapefruit</a></div>
-<div class="col"><a href="./punishment3.php">Pomegranetes</a></div>
+    <div class="col"><a href="./redirect.php">Simon Zinc-Trumpet-Harris</a></div>
+<div class="col"><a href="./punishment2.php">Oliver St. John-Mollusc</a></div>
+<div class="col"><a href="./secretlevel3-3.php">Gervaise Brook-hampster</a></div>
+<div class="col"><a href="./punishment.php">Nigel Incubator-Jones</a></div>
+<div class="col"><a href="./punishment3.php">Vivian Smith-Smythe-Smith </a></div>
 </div>
     </div>
 

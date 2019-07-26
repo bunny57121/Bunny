@@ -14,9 +14,21 @@ if (isset($_POST['login'])) {
             session_start();
             $_SESSION['username'] = $username;
             $_SESSION['loggedin'] = 'true';
+            $_SESSION['userid'] = $user['id'];
             if ($user['type']=="admin") {
                 $_SESSION['admin'] = 'true';
             }
+            if ($user['status']=="secret") {
+                $_SESSION['secret'] = 'true';
+            }
+            if ($user['status']=="premium"){
+                $_SESSION['premium'] = 'true';
+            }
+            if ($user['status']=="rickroll"){
+                header("Location: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+                die;
+            }
+
             header('Location: index.php');
             die;
         } else{
